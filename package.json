@@ -4,7 +4,7 @@
   "description": "A typescript template project",
   "main": "index.js",
   "scripts": {
-    "start": "gulp build && node ./build/src/bin/start.js",
+    "start": "gulp build && node ./build/bin/start.js",
     "test": "gulp test"
   },
   "repository": {
@@ -15,12 +15,11 @@
   "license": "ISC",
   "dependencies": {
     "config": "^1.19.0",
-    "require-dir": "^0.3.0",
     "winston": "^2.2.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-bump": "^2.0.1",
+    "gulp-bump": "^2.1.0",
     "gulp-clean": "^0.3.2",
     "gulp-git": "^1.7.0",
     "gulp-istanbul": "^0.10.3",
@@ -33,6 +32,7 @@
     "mocha": "^2.4.5",
     "run-sequence": "^1.1.5",
     "tslint": "^3.6.0",
-    "typescript-formatter": "^2.1.0"
+    "typescript-formatter": "^2.1.0",
+    "require-dir": "^0.3.0"
   }
 }

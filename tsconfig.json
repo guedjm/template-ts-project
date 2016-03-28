@@ -9,7 +9,8 @@
     "removeComments": true,
     "noLib": false,
     "preserveConstEnums": true,
-    "outDir": "./build"
+    "outDir": "./build",
+    "rootDir": "./src"
   },
   "files": [
     "./typings/main.d.ts"

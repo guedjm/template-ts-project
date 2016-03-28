@@ -8,7 +8,7 @@ const istambul = require("gulp-istanbul");
 const runSequence = require("run-sequence");
 
 gulp.task("pre-test", function () {
-  return gulp.src(['./build/src/**/**/**/*.js'])
+  return gulp.src(['./build/**/**/**/*.js'])
     .pipe(istambul())
     .pipe(istambul.hookRequire());
 });
