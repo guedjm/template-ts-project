@@ -1,9 +1,9 @@
-#Template-ts-project
+# Template-ts-project
 
 Template project for creating typescript applications
 
 
-##Prerequises
+## Prerequises
 
 To use the Template-ts-project environnement, you need to install these packages globally
 ```
@@ -11,7 +11,7 @@ npm install -g gulp typings tsfmt
 ```
 
 
-##Getting started
+## Getting started
 
 Start by installing project dependencies:
 ```
@@ -23,7 +23,7 @@ Then install typings file definitions:
 typings install
 ```
 
-##Project Structure
+## Project Structure
 
 ```
 .
@@ -56,7 +56,7 @@ typings install
 6 directories, 19 files
 ```
 
-##Main tasks
+## Main tasks
 
 **gulp build**: Transpile typescript to javascript
 
